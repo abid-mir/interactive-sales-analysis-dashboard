@@ -1,0 +1,27 @@
+# Power BI temp files
+*.pbix.tmp
+*.pbix.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Excel temp
+~$*.xlsx
+~$*.xlsb
+
+# VS Code / editors
+.vscode/
+*.code-workspace
+
+# Python (if any scripts added later)
+__pycache__/
+*.py[cod]
+*.env
+venv/
+.env
+
+# Large data exports (keep originals only)
+*_export.csv
+output/
